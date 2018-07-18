@@ -9,4 +9,16 @@
 #table{
     height:700px;
     width: 1024px;
+    border: 7px outset coral;
+    margin: 0 auto;
+}
+.table__menu {
+    margin:40px auto;
+    width: 500px;
+    background-color: #fffeb3;
+    padding: 10px;
+    border-radius: 15px;
+}
+body{
+    background-color: #6fcb9f;
 }

@@ -1,0 +1,36 @@
+
+#container {
+  width: 700px;
+  margin:auto;
+  text-align: center;
+  border: 1px solid black;
+}
+.options div{
+    display: inline-block;
+    margin-right: 20px;
+    width: 150px;
+    height: 40px;
+    line-height: 40px;
+    border-radius: 20px;
+}
+.rock{
+    background-color: red;
+}
+.paper{
+    background-color: green;
+}
+.scissors{
+    background-color: blue;
+}
+.options{
+    display: none;
+    z-index:900;
+    color: white;
+}
+
+.container__result{
+    border:1px solid black;
+    width: 50%;
+    height: 35px;
+    margin: 15px auto;
+}
